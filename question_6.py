@@ -7,10 +7,7 @@ slice = genres[1:4]
 print(slice)
 
 # Task 2
-new_genre_list = []
-
-for genre in genres:
-    new_genre_list.append(genre + " Music")
+new_genre_list = [f'{genre} Music' for genre in genres]
 
 print(new_genre_list)
 
